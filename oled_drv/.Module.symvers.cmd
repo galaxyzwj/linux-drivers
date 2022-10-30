@@ -1,0 +1,1 @@
+cmd_/work/orangePi/linux-drivers/oled_drv/Module.symvers := sed 's/\.ko$$/\.o/' /work/orangePi/linux-drivers/oled_drv/modules.order | scripts/mod/modpost    -o /work/orangePi/linux-drivers/oled_drv/Module.symvers -e -i Module.symvers   -T -
